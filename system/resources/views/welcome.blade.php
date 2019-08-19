@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>E-GOVERMENT</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -73,7 +73,8 @@
                         <a href="{{ route('login') }}">Login</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <!-- <a href="{{ route('register') }}" >Register (disabel)</a> -->
+                             <a href="">Register (disable)</a>
                         @endif
                     @endauth
                 </div>
@@ -81,17 +82,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    E-GOVERMENT
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="">HOME</a>
+                    <a href="">MENU 1</a>
+                    <a href="">MENU 2</a>
+                    <a href="">MENU 3</a>
+                    <a href="">MENU 4</a>
+                    <a href="">MENU 5</a>
+                    <a href="">MENU 6</a>
                 </div>
             </div>
         </div>
